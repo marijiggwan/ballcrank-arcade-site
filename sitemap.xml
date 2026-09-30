@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CUTOVER: replace the Netlify subdomain with the final domain. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://ballcrank.netlify.app/</loc></url>
+  <url><loc>https://ballcrank.netlify.app/vendors/</loc></url>
+</urlset>

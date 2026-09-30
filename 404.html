@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>That page isn't here | Ballcrank Arcade</title>
+  <!-- NOINDEX: on every page until the final domain is live. Remove at domain cutover (Blueprint 4.4). -->
+  <meta name="robots" content="noindex, nofollow">
+  <!-- CUTOVER: canonical and Open Graph URLs point at the Netlify subdomain until the domain is connected (Blueprint build step 11). -->
+  <link rel="canonical" href="https://ballcrank.netlify.app/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ballcrank Arcade">
+  <meta property="og:title" content="That page isn't here | Ballcrank Arcade">
+  <meta property="og:url" content="https://ballcrank.netlify.app/404.html">
+  <meta property="og:image" content="https://ballcrank.netlify.app/assets/img/share.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="That page isn't here | Ballcrank Arcade">
+  <meta name="twitter:image" content="https://ballcrank.netlify.app/assets/img/share.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&amp;family=Source+Sans+3:wght@400;600&amp;display=swap">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- GA4 [PENDING open item 12]: add the gtag snippet here once the property exists. Event hooks are already in main.js. -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="/">Ballcrank Arcade</a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/#happening">What's happening</a></li>
+          <!-- PENDING schedule: remove the hidden attribute when the schedule is in (Blueprint 3.1) -->
+          <li hidden><a href="/#schedule">Schedule</a></li>
+          <li><a href="/#fridays">Fridays</a></li>
+          <li><a href="/vendors/">Vendors</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/#location">Directions</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn-primary header-cta" href="https://www.facebook.com/share/18R9hhrae3/" target="_blank" rel="noopener" data-track="rsvp_click">I'm coming</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        Menu
+      </button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="simple-page">
+      <div class="wrap narrow">
+        <h1>That page isn't here.</h1>
+        <p>The Grand Opening details are on the homepage.</p>
+        <a class="btn btn-primary" href="/">Go to the homepage</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer dark">
+    <div class="wrap">
+      <a class="wordmark" href="/">Ballcrank Arcade</a>
+      <p>115 Reems Creek Road, Weaverville, NC</p>
+      <p><a href="mailto:ballcrankarcade@gmail.com">ballcrankarcade@gmail.com</a></p>
+      <!-- PENDING open item 11: Facebook page URL not in the Blueprint. Add href when supplied. -->
+      <p>Facebook <span class="pending">[PENDING link]</span></p>
+      <p>Website sponsored by Peterson Insurance Group</p>
+      <p class="fine">&copy; <span id="year">2026</span> Ballcrank Arcade</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ballcrank Arcade//Grand Opening//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:grand-opening-2026-10-24@ballcrankarcade
+DTSTAMP:20260930T000000Z
+DTSTART:20261024T190000Z
+DTEND:20261024T230000Z
+SUMMARY:Ballcrank Arcade Grand Opening + Community Day
+LOCATION:115 Reems Creek Road\, Weaverville\, NC 28787
+URL:https://ballcrank.netlify.app/
+END:VEVENT
+END:VCALENDAR

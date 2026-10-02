@@ -159,6 +159,21 @@ p { margin: 0 0 1em; }
 .hero .btn-row { justify-content: center; }
 .mountains { display: block; width: 100%; height: clamp(120px, 22vw, 280px); margin-top: 32px; }
 @media (min-width: 900px) { .hero { padding-top: 64px; } }
+.hero-photo { display: block; max-width: 520px; margin: 32px auto 0; }
+.hero-photo img {
+  display: block; width: 100%; height: auto; border: 8px solid var(--white); border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(27, 44, 58, 0.22);
+}
+@media (min-width: 900px) {
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr); gap: 48px; align-items: center; }
+  .hero-text { text-align: left; }
+  .hero-text .btn-row { justify-content: flex-start; }
+  .hero h1 .h1-wordmark { font-size: clamp(4.5rem, 8.6vw, 7.25rem); }
+  .hero h1 .h1-sub { font-size: clamp(1.6rem, 2.9vw, 2.45rem); letter-spacing: 0.02em; }
+  .hero .date-line { font-size: clamp(1.6rem, 2.9vw, 2.4rem); white-space: nowrap; }
+  .hero-photo { max-width: none; margin: 0; transform: rotate(1.5deg); }
+  .hero .mountains { margin-top: -24px; }
+}
 
 /* Add to calendar menu */
 .cal { position: relative; }

@@ -249,13 +249,11 @@
           <li class="card" data-hold hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2z"/><path d="M9 4v14M15 6v14"/></svg><h3>Property tours</h3><p>See the 38 acres and hear what's planned.</p></li>
         </ul>
 
-        <!-- Photo strip. PHOTO PLACEHOLDERS 1:1 (open item 10). Replace each placeholder div with
-             <img class="photo" src="/assets/img/NAME.webp" alt="DESCRIPTION" width="1200" height="1200" loading="lazy">.
-             Works with two or three photos. If no photos arrive, delete the whole .photo-strip block. -->
-        <div class="photo-strip" data-pending>
-          <div class="photo placeholder">[PHOTO PLACEHOLDER 1:1] Farmers or the market</div>
-          <div class="photo placeholder">[PHOTO PLACEHOLDER 1:1] People on the property</div>
-          <div class="photo placeholder">[PHOTO PLACEHOLDER 1:1] Kids or families</div>
+        <!-- Photo strip: three real photos from Ashley's approved set (Oct 2), cropped 1:1. -->
+        <div class="photo-strip">
+          <picture><source srcset="/assets/img/strip-market.webp" type="image/webp"><img class="photo" src="/assets/img/strip-market.jpg" alt="A vendor arranging handmade bracelets and necklaces on her table at an outdoor market" width="768" height="768" loading="lazy"></picture>
+          <picture><source srcset="/assets/img/strip-music.webp" type="image/webp"><img class="photo" src="/assets/img/strip-music.jpg" alt="Two smiling children sitting on a quilt playing a tambourine, xylophone and drums" width="768" height="768" loading="lazy"></picture>
+          <picture><source srcset="/assets/img/strip-family.webp" type="image/webp"><img class="photo" src="/assets/img/strip-family.jpg" alt="A toddler in a purple tutu sitting on a vendor's table at an outdoor market" width="768" height="768" loading="lazy"></picture>
         </div>
       </div>
     </section>

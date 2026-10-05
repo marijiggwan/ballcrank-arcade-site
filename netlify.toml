@@ -43,3 +43,8 @@
   to = "https://ballcrankarcade.com/:splat"
   status = 301
   force = true
+
+[[headers]]
+  for = "/downloads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"

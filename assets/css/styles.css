@@ -303,6 +303,8 @@ tbody tr:last-child th, tbody tr:last-child td { border-bottom: 0; }
 .site-footer .wordmark { font-size: 2rem; display: inline-block; margin-bottom: 12px; }
 .site-footer p { margin: 0 0 6px; }
 .site-footer .fine { margin-top: 20px; font-size: 1rem; color: var(--ridge-1); }
+.site-footer .privacy { font-size: .9rem; }
+.site-footer .privacy + .fine { margin-top: 6px; }
 
 /* ---------- Mobile bottom bar (homepage, phones only) ---------- */
 .bottom-bar { display: none; }

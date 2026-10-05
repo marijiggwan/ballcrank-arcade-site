@@ -79,16 +79,4 @@
       track('fridays_signup');
     });
   }
-
-  // HOLD preview switch. Review only: add ?hold=on to the URL to see the
-  // pickleball and property tour lines. Remove this block after Oct 5,
-  // when the HOLD decision is applied in the HTML.
-  if (/[?&]hold=on\b/.test(window.location.search)) {
-    document.querySelectorAll('[data-hold]').forEach(function (el) { el.hidden = false; });
-    document.querySelectorAll('[data-hold-swap]').forEach(function (el) {
-      el.textContent = el.getAttribute('data-hold-swap');
-    });
-    var cards = document.querySelector('.cards');
-    if (cards) cards.classList.add('hold-on');
-  }
 })();

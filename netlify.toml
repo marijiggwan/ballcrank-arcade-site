@@ -36,3 +36,10 @@
   for = "/*.ics"
   [headers.values]
     Content-Type = "text/calendar; charset=utf-8"
+
+# Domain cutover Oct 5, 2026: send the Netlify subdomain to the real domain.
+[[redirects]]
+  from = "https://ballcrank.netlify.app/*"
+  to = "https://ballcrankarcade.com/:splat"
+  status = 301
+  force = true

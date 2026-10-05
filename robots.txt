@@ -1,6 +1,4 @@
-# Crawling stays allowed so the noindex tag on each page can be read.
-# The Netlify subdomain is kept out of search by that tag until domain cutover.
 User-agent: *
 Allow: /
 
-Sitemap: https://ballcrank.netlify.app/sitemap.xml
+Sitemap: https://ballcrankarcade.com/sitemap.xml
